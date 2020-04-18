@@ -8,7 +8,7 @@ Q. Shen, C. F. Yue, C. H. Goh and D. W. Wang, “Active Fault-Tolerant Control S
 
  - Detect actuator faults in rigid-body attitude control systems
  - Estimate combined actuator faults by using a disturbance observer
- - Compensate actuator fault effects in attitude control systems using an adaptive controller taking into account actuator saturation constraints. 
+ - Design an adaptive controller to compensate actuator fault effects taking into account actuator saturation constraints. 
 
 
 
