@@ -20,7 +20,7 @@ P   = lmivar(2,[3 3]);
 miu = lmivar(1,[1 1]);
 
  % [ -A-P-miu*A1,   -B-miu*B1; 
- %                         *,   -miu*D1;     ]    
+ %   *,   -miu*D1;     ]    
 
 lmiterm([1 1 1 0],-A); % -A
 lmiterm([1 1 1 P],-1,1); % -P

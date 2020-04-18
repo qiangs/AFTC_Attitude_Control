@@ -438,7 +438,7 @@ for i=0:dT:Tsimu %time instant
     QnoiseKron = [Qnoise(4), Qnoise(3), -Qnoise(2), Qnoise(1);...
         -Qnoise(3), Qnoise(4), Qnoise(1), Qnoise(2);...
         Qnoise(2), -Qnoise(1), Qnoise(4), Qnoise(3);...
-        -                      Qnoise(1), -Qnoise(2), -Qnoise(3), Qnoise(4)];
+        -Qnoise(1), -Qnoise(2), -Qnoise(3), Qnoise(4)];
     
     Q_meas = QnoiseKron*Q;
     Q_meas= Q_meas/norm(Q_meas); %norm(Q_means should be almost euqal to 1)
@@ -501,10 +501,6 @@ for i=0:dT:Tsimu %time instant
     end
     
     % controller reconfiguration
-    
-    
-    
-    
     
     % ---------------End of Fault Estimation ------------------
     
